@@ -1,4 +1,4 @@
-# OD-SGD -- OD-SGD: One-step Delay Stochastic Gradient Descent for Distributed Training
+# OD-SGD: One-step Delay Stochastic Gradient Descent for Distributed Training
 The implementation of OD-SGD is based on the popular deep learning framework [MXNet](https://github.com/apache/incubator-mxnet), and I just modify some source code files to adjust the execution orders of the operations. Therefore, the file list is almost the same with [MXNet](https://github.com/apache/incubator-mxnet). OD-SGD is proposed to imporve the distributed deep learning training performance via increasing the overlap ratio of computation and communication process.
 
 # Features
