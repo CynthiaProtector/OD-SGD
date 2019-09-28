@@ -1,0 +1,1 @@
+python ../../tools/launch.py -s 1 -n 4 --launcher ssh -H hosts python image_classification.py --model mobilenet1.0 --lr 0.1 --lr_local 0.1 --optimizer sgd --optimizer_local sgd --momentum 0.9 --momentum_local 0 --lr-step-epochs 20 --lr-step-epochs-local 22  --kvstore dist_sync --num-gpus 4

@@ -1,0 +1,2 @@
+python ../../tools/launch.py -s 1 -n 8  --launcher ssh -H hosts python train_cifar10.py --lr 0.1 --lr-local 0.5 --mom-local 0  --mom 0.95  --lr-step-epochs 1,2,3,4,5,6,7 --lr-step-epochs-local 1,2,3,4,5,6,7  --disp-batch 40 --optimizer sgd --optimizer-local CADCASGD  --kv-store dist_sync --network resnet --num-layers 20 --data-train data/cifar10_train.rec --data-val data/cifar10_val.rec --gpus 0,1,2,3 --num-epochs 200 --batch-size 32 --model-prefix /PARA/blsc365/perl5/checkpoint/check-resnet20-sync/resnet20  
+#yhcancel 81954  

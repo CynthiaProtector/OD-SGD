@@ -1,0 +1,34 @@
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/xuyemao/Desktop/experiment_tf/Mxnet/mxnet-0.12.1-ODSGD
+-- The C compiler identification is AppleClang 10.0.1.10010046
+-- The CXX compiler identification is AppleClang 10.0.1.10010046
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test SUPPORT_CXX11
+-- Performing Test SUPPORT_CXX11 - Success
+-- Performing Test SUPPORT_CXX0X
+-- Performing Test SUPPORT_CXX0X - Success
+-- Performing Test SUPPORT_MSSE2
+-- Performing Test SUPPORT_MSSE2 - Success
+-- Could NOT find MKL (missing:  MKL_INCLUDE_DIR MKL_RT_LIBRARY) 
+--  MKL not found
+-- Could NOT find MKL (missing:  MKL_INCLUDE_DIR MKL_RT_LIBRARY) 
+-- Found OpenBLAS libraries: /usr/local/opt/openblas/lib/libopenblas.dylib
+-- Found OpenBLAS include: /usr/local/opt/openblas/include
+CMake Error at mshadow/cmake/mshadow.cmake:49 (message):
+  -- CUDA is disabled.
+Call Stack (most recent call first):
+  CMakeLists.txt:132 (include)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/xuyemao/Desktop/experiment_tf/Mxnet/mxnet-0.12.1-ODSGD/cmake-build-debug/CMakeFiles/CMakeOutput.log".
